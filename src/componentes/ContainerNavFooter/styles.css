@@ -32,10 +32,12 @@ header{
   }
   
   footer{
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
-    text-align: center;
-    padding-bottom: 30px;
+    height: 49px;
     color: #615f61;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
