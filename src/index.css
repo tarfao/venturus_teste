@@ -96,3 +96,9 @@ body {
 hr{
   color: #eeeeee;
 }
+
+h1{
+  color: #552c8a;
+  font-size: 2em;
+  font-weight: bold;
+}
