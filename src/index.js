@@ -9,9 +9,9 @@ ReactDOM.render(
       <section className='my-teams-container'>
         <div className='header-my-teams'>
           <h1>My teams</h1>
-          <button className='button-add-my-teams'>
+          <div className='button add-my-teams'>
             +
-          </button>
+          </div>
         </div>
         <hr />
       </section>
