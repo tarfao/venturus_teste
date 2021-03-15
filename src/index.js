@@ -5,19 +5,25 @@ import './index.css';
 
 ReactDOM.render(
   <ContainerNavFooter>
-    <div className='content'>
-      <div className='my-teams-container'>
-
-      </div>
-      <div className='top5-most-less-picked-container'>
-        <div className='top5-container'>
-
+    <section className='content'>
+      <section className='my-teams-container'>
+        <div className='header-my-teams'>
+          <h1>My teams</h1>
+          <button className='button-add-my-teams'>
+            +
+          </button>
         </div>
-        <div className='moss-less-picked-container'>
+        <hr />
+      </section>
+      <section className='top5-most-less-picked-container'>
+        <section className='top5-container'>
+
+        </section>
+        <section className='moss-less-picked-container'>
           
-        </div>
-      </div>
-    </div>
+        </section>
+      </section>
+    </section>
   </ContainerNavFooter>,
   document.getElementById('root')
 );
