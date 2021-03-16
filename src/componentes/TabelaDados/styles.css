@@ -1,0 +1,7 @@
+.table-row-app:hover > td > .app-actions{
+    display: table-cell;
+}
+
+svg.app-actions{
+    display: none;
+}
