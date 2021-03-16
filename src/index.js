@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import ContainerNavFooter from './componentes/ContainerNavFooter';
+import TabelaDados from './componentes/TabelaDados';
 import './index.css';
 
 ReactDOM.render(
@@ -14,13 +15,14 @@ ReactDOM.render(
           </div>
         </div>
         <hr />
+        <TabelaDados />
       </section>
       <section className='top5-most-less-picked-container'>
         <section className='top5-container'>
 
         </section>
         <section className='moss-less-picked-container'>
-          
+
         </section>
       </section>
     </section>
