@@ -109,8 +109,7 @@ h1{
 .button{
   cursor: pointer;
   background-image: linear-gradient(to bottom, #a8397b, #803382);
-  border-radius: 5px;
-  box-shadow: #803382;
+  border-radius: 15px;
   color: #fff;
   font-size: xx-large;
   padding: 5px 14.9333px;
